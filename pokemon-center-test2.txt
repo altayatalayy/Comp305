@@ -1,0 +1,32 @@
+Aerilon (0, 0): Lansing, Bamburgh
+Lansing (1, 0): Aerilon, Violl's Garden, Battle Creek
+Violl's Garden (2, 0): Lansing, Battle Creek, Toledo
+White River Junction (9, 0): Concord, Springfield
+Ardglass (11, 0): Grimsby
+Concord (10, 1): White River Junction, Grimsby
+Battle Creek (1, 2): Lansing, Bamburgh, Violl's Garden, Boroughton
+Syracuse (6, 2): Albany, Scranton, Black Hollow 
+Albany (7, 2): Syracuse, Springfield, Newburgh
+Springfield (8, 2): Albany, White River Junction, Hartford, Grimsby
+Grimsby (11, 2): Ardglass, Concord, Springfield, New Haven
+Scranton (6, 3): Syracuse, Wilkes-Barre, Newburgh
+Newburgh (9, 3): Albany, Scranton, Hartford, Dragontail
+Hartford (10, 3): Newburgh, Springfield, New Haven
+New Haven (11, 3): Grimsby, Hartford, Dragontail
+Bamburgh (0, 4): Aerilon, Battle Creek, Boroughton, Toledo
+Toledo (2, 4): Violl's Garden, Black Hollow , Dayton, Bamburgh
+Black Hollow  (4, 4): Toledo, Erie, Cambridge
+Erie (5, 4): Black Hollow , Wilkes-Barre, Pittsburgh
+Wilkes-Barre (6, 4): Erie, Scranton, Dragontail, Harrisburg
+Dragontail (11, 4): Newburgh, New Haven, Harrisburg, Ironforge
+Ironforge (11, 5): Dragontail, Harrisburg, Baltimore
+Boroughton (0, 6): Bamburgh, Dayton, Battle Creek
+Dayton (2, 6): Toledo, Boroughton, Cincinnati, Columbus
+Columbus (3, 6): Dayton, Black Hollow , Cambridge, Cincinnati
+Cambridge (4, 6): Columbus, Pittsburgh, Black Hollow 
+Pittsburgh (5, 6): Cambridge, Erie, Harrisburg
+Harrisburg (6, 6): Wilkes-Barre, Pittsburgh, Baltimore, Front Royal, Dragontail, Ironforge
+Baltimore (11, 6): Ironforge, Harrisburg, Caerleon
+Cincinnati (2, 7): Dayton, Columbus
+Front Royal (6, 7): Harrisburg, Caerleon
+Caerleon (11, 7): Baltimore, Front Royal
