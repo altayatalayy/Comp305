@@ -4,9 +4,10 @@
 ## Table of contents
 * [General-info](#general-info)
 * [Technologies](#technologies)
-* [Installation](#Installation)
-* [Run](#Run)
-* [Test](#Test)
+* [Installation](#installation)
+* [Run](#run)
+* [Test](#test)
+* [To-Do](#to-do)
 
 ## General-Info
 ### Introduction
@@ -35,4 +36,7 @@ source venv/bin/activate #Activate venv
 python test.py
 ```
 
-
+## TO-DO
+- [X] Initialize GitHub repo
+- [X] Read input from file
+- [ ] Apply MST to the input
