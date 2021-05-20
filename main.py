@@ -2,7 +2,7 @@
 __doc__ = '''Comp 305 final project
 Group No: 21
 Members:
-    Altay Atalay 64568
+    Altay Atalay
 
 Project Name: Pokemon
 '''

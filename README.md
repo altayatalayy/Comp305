@@ -4,9 +4,10 @@
 ## Table of contents
 * [General-info](#general-info)
 * [Technologies](#technologies)
-* [Installation](#Installation)
-* [Run](#Run)
-* [Test](#Test)
+* [Installation](#installation)
+* [Run](#run)
+* [Test](#test)
+* [To-Do](#to-do)
 
 ## General-Info
 ### Introduction
@@ -20,19 +21,22 @@ git clone https://github.com/altayatalayy/Comp305.git ./project
 cd project
 git checkout development
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate #Activate venv
 pip install -r requirements.txt
 ```
-##Run
+## Run
 ``` console
 source venv/bin/activate #Activate venv
 python main.py
 ```
 
-##Test
+## Test
 ``` console
 source venv/bin/activate #Activate venv
 python test.py
 ```
 
-
+## TO-DO
+- [X] Initialize GitHub repo
+- [X] Read input from file
+- [ ] Apply MST to the input
