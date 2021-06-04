@@ -78,10 +78,12 @@ def network_from_file(file_name : str) -> dict:
                 continue
             if line.strip() in ["", "\n"]:#Pass empty lines
                 continue
-            l = line.split(' ')
-            city_name, x, y, *connected_cities = l
+            l = line.split(':')
+            *city_name, x, y, = l[0].split(' ')
+            city_name = ' '.join(city_name).strip(' ')
             x, y = int(x[1]), int(y[0])# Convert x and y from str to int
-            connected_cities = [c.strip(',').strip('\n') for c in connected_cities]# Get rid of the ,
+            connected_cities = l[1].strip(' ').split(',')
+            connected_cities = [c.strip(' \n') for c in connected_cities]# Get rid of the ,
 
             keys.append(city_name)
             values.append(connected_cities)
