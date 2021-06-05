@@ -9,6 +9,19 @@ Project Name: Pokemon
 
 import sys
 
+from functools import wraps
+
+def timer(f):
+    @wraps(f)
+    def wrapper(*args, **kwargs):
+        import time
+        t0 = time.time()
+        rv = f(*args, **kwargs)
+        t1 = time.time()
+        print(f'Elapsed time for {f.__name__}: {t1 - t0:5.3f}')
+        return rv
+    return wrapper
+
 def check_correctness(selected_cities, road_network):
     # check if the solution satisfies the problem
     has_center = {k : False for k in road_network.keys()}
@@ -121,6 +134,7 @@ def helper(selected_cities, road_network):
     return _rv
 
 
+@timer
 def can_be_made_tournament_ready(road_network : dict, num_cities : int) -> list:
     '''The Algorithm
     '''
@@ -148,6 +162,7 @@ if __name__ == '__main__':
     print(road_network)
     result = can_be_made_tournament_ready(road_network, num_cities)
     print(f'result = {result}')
+
 
     #print(mst(road_network))
 
