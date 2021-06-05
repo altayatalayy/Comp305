@@ -8,6 +8,7 @@
 * [Run](#run)
 * [Test](#test)
 * [To-Do](#to-do)
+* [Run-Times](#run-times)
 
 ## General-Info
 ### Introduction
@@ -62,4 +63,8 @@ python test.py
 - [X] Initialize GitHub repo
 - [X] Read input from file
 - [ ] Apply MST to the input
+
+## Run-Times
+![Alt text](/greedy_runtime.png "Runtime for greedy algorithm")
+![Alt text](/recursive_runtime.png "Runtime for recursive algorithm")
 
